@@ -1,0 +1,7 @@
+<h2>Person Editing</h2>
+<form [formGroup]="form">
+  <div>Name: <input type="text" formControlName="name" /></div>
+</form>
+<hr />
+<strong>Form value</strong>
+<pre>{{ form.value | json }}</pre>

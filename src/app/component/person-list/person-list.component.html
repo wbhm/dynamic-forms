@@ -1,0 +1,12 @@
+<h2 class="ui header">
+  Person List
+</h2>
+<hr />
+<div class="ui segment">
+  <div>
+    <app-dynamic-form
+      *ngFor="let p of people"
+      [dataObject]="p"
+    ></app-dynamic-form>
+  </div>
+</div>
